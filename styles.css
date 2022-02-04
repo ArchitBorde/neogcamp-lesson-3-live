@@ -4,6 +4,8 @@
     --primary-color: #7C3AED;   
     --dark-gray: #64748b;
     --light-gray:#e2e8f0;
+    --shade-black:#1e293b;
+    --darker-primary-color : #5b21b6;
 }
 
 body{
@@ -106,10 +108,19 @@ hr{
     color: var(--dark-gray);
 }
 
+.hero .hero-h2{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--shade-black);
+}
+
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 }
 
+.hero .heading-inverted-darker{
+    color: var(--darker-primary-color);
+}
 .section{
     padding: 2rem;
 }
